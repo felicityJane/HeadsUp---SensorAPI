@@ -17,7 +17,7 @@ namespace SensorAPI.Controllers
 
         [Route("headsup/user/postuser/{userId}/{name}/{info}")]
         [HttpPost]
-        public IHttpActionResult PostData(string userId, string name, string info)
+        public IHttpActionResult PostUser(string userId, string name, string info)
         {
             UserEntity model;
             try
